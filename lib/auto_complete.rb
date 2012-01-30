@@ -2,8 +2,3 @@ require File.join(File.dirname(__FILE__), 'auto_complete/railtie') if defined?(R
 require File.join(File.dirname(__FILE__), 'auto_complete/auto_complete')
 require File.join(File.dirname(__FILE__), 'auto_complete/auto_complete_macros_helper')
 
-class ActionController::Base
-  extend AutoComplete::ClassMethods
-  helper AutoCompleteMacrosHelper
-end
-

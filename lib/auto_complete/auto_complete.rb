@@ -1,4 +1,9 @@
 module AutoComplete
+
+  def self.included(base)
+    base.extend(ClassMethods)
+  end
+
   #
   # Example:
   #
@@ -42,4 +47,6 @@ module AutoComplete
   end
 
 end
+
+ActionController::Base.send :include, AutoComplete if defined?(ActionController)
 
