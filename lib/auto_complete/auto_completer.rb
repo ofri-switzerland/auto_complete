@@ -1,4 +1,4 @@
-module AutoComplete
+module AutoCompleter
 
   def self.included(base)
     base.extend(ClassMethods)
@@ -48,5 +48,5 @@ module AutoComplete
 
 end
 
-ActionController::Base.send :include, AutoComplete if defined?(ActionController)
+ActionController::Base.send :include, AutoCompleter if defined?(ActionController)
 

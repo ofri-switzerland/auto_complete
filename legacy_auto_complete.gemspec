@@ -22,8 +22,8 @@ Gem::Specification.new do |s|
     "VERSION",
     "legacy_auto_complete.gemspec",
     "lib/auto_complete.rb",
-    "lib/auto_complete/auto_complete.rb",
-    "lib/auto_complete/auto_complete_macros_helper.rb",
+    "lib/auto_complete/auto_completer.rb",
+    "lib/auto_complete/auto_completer_macros_helper.rb",
     "lib/auto_complete/railtie.rb",
     "test/auto_complete_test.rb",
     "test/test_helper.rb"
