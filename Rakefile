@@ -14,7 +14,7 @@ begin
   require 'jeweler'
 
   Jeweler::Tasks.new do |gemspec|
-    gemspec.name          =   "legacy_auto_complete"
+    gemspec.name          =   "auto_complete"
     gemspec.summary       =   "Rails' auto_complete plugin (for Prototype) as a gem"
     gemspec.description   =   "Rails' auto_complete plugin (for Prototype) as a gem"
     gemspec.email         =   "sebastian@agiley.se"

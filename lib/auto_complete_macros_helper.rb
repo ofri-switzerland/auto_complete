@@ -1,4 +1,4 @@
-module AutoCompleterMacrosHelper
+module AutoCompleteMacrosHelper
   # Adds AJAX autocomplete functionality to the text input field with the
   # DOM ID specified by +field_id+.
   #
@@ -143,5 +143,5 @@ module AutoCompleterMacrosHelper
 
 end
 
-ActionController::Base.helper AutoCompleterMacrosHelper if defined?(ActionController)
+ActionController::Base.helper AutoCompleteMacrosHelper if defined?(ActionController)
 

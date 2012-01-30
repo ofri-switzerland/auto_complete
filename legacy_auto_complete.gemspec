@@ -4,7 +4,7 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = "legacy_auto_complete"
+  s.name = "auto_complete"
   s.version = "0.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
@@ -20,11 +20,10 @@ Gem::Specification.new do |s|
     "README",
     "Rakefile",
     "VERSION",
+    "init.rb",
     "legacy_auto_complete.gemspec",
     "lib/auto_complete.rb",
-    "lib/auto_complete/auto_completer.rb",
-    "lib/auto_complete/auto_completer_macros_helper.rb",
-    "lib/auto_complete/railtie.rb",
+    "lib/auto_complete_macros_helper.rb",
     "test/auto_complete_test.rb",
     "test/test_helper.rb"
   ]
