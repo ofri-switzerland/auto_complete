@@ -16,11 +16,18 @@ Gem::Specification.new do |s|
     "README"
   ]
   s.files = [
+    "Gemfile",
     "README",
     "Rakefile",
     "VERSION",
+    "legacy_auto_complete.gemspec",
     "lib/auto_complete.rb",
-    "test/auto_complete_test.rb"
+    "lib/auto_complete/auto_complete.rb",
+    "lib/auto_complete/auto_complete_macros_helper.rb",
+    "lib/auto_complete/railtie.rb",
+    "rails/init.rb",
+    "test/auto_complete_test.rb",
+    "test/test_helper.rb"
   ]
   s.homepage = "https://github.com/Agiley/auto_complete"
   s.require_paths = ["lib"]
