@@ -25,7 +25,6 @@ Gem::Specification.new do |s|
     "lib/auto_complete/auto_complete.rb",
     "lib/auto_complete/auto_complete_macros_helper.rb",
     "lib/auto_complete/railtie.rb",
-    "rails/init.rb",
     "test/auto_complete_test.rb",
     "test/test_helper.rb"
   ]
